@@ -3,6 +3,7 @@ package cmd
 import (
 	"bookswap-service-tdd-go/db"
 	"bookswap-service-tdd-go/handlers"
+	_ "embed"
 	"encoding/json"
 	"github.com/gofiber/fiber/v2"
 	"log"
